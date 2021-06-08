@@ -4,7 +4,7 @@ public class character {
     private String Name;
     private String CLASS;
     private String Race;
-    private atributs atributs = new atributs();
+    public atributs atributs;
 
 
     @Override
