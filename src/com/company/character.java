@@ -1,19 +1,41 @@
 package com.company;
 
-
-
 public class character {
-    public String name;
-    private int lvl;
-    private int exp;
-    public haracteristic haracteristic;
+    private String Name;
+    private String CLASS;
+    private String Race;
+    private atributs atributs = new atributs();
 
 
-    public void setCharecter(String name, int lvl) {
-        this.name = name;
-        this.lvl = lvl;
-        this.exp = 0;
+    @Override
+    public String toString() {
+        return "Character{" +
+                "Name='" + Name + '\'' +
+                ", CLASS='" + CLASS + '\'' +
+                ", Race='" + Race + '\'' +
+                '}';
     }
 
+    public atributs getatributs() {
+        return atributs;
+    }
+
+    public character(String Name, String CLASS, String Race) {
+        this.Name = Name;
+        this.CLASS = CLASS;
+        this.Race = Race;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public String getCLASS() {
+        return CLASS;
+    }
+
+    public String getRace() {
+        return Race;
+    }
 
 }

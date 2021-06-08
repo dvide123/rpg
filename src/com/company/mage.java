@@ -1,4 +1,6 @@
 package com.company;
 
-public class enemies {
+public class mage {
+
+
 }
