@@ -11,7 +11,7 @@ public class Main {
         String CLASS = scaner.next();
         System.out.println("entre race:");
         String Race = scaner.next();
-        character characterOne = new character(name, CLASS, Race);
+
 
     }
 }
