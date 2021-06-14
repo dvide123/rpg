@@ -1,9 +1,7 @@
 package com.company;
 
-public class warior extends atributs {
-    public warior(int strength, int dexterity, int intelligence, int wisdom, int defense, int vitality) {
-        super(strength, dexterity, intelligence, wisdom, defense, vitality);
-         warior warior = new warior(3,1,1,1,3,2);
-
+public class Warrior extends Character{
+    public Warrior(String race, String name) {
+        super(3, 0, 1, 2, 10, 0, 100, 0, race, name);
     }
 }
